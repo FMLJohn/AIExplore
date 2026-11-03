@@ -1,4 +1,4 @@
-name: Build CanonicalMorphism
+name: Build AIExplore
 
 on:
   push:
@@ -55,4 +55,4 @@ jobs:
           restore-keys: LakeBuild-
 
       - name: Build project
-        run: ~/.elan/bin/lake build CanonicalMorphism
+        run: ~/.elan/bin/lake build AIExplore

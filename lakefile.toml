@@ -1,5 +1,5 @@
-name = "CanonicalMorphism"
-defaultTargets = ["CanonicalMorphism"]
+name = "AIExplore"
+defaultTargets = ["AIExplore"]
 
 [leanOptions]
 pp.unicode.fun = true
@@ -20,4 +20,4 @@ name = "«doc-gen4»"
 git = "https://github.com/leanprover/doc-gen4"
 rev = "main"
 [[lean_lib]]
-name = "CanonicalMorphism"
+name = "AIExplore"
