@@ -55,8 +55,6 @@ proof_results = [
   {"theorem": "thm5", "status": "failed", "error": "unknown identifier"},
   {"theorem": "thm6", "status": "failed", "error": "unsolved goals"} ]
 
-print(proof_results[0]["error"] != None)
-
 def analyse_errors(proof_results):
   data = {}
   for x in proof_results:
