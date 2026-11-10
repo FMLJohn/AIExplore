@@ -1,5 +1,6 @@
-import Mathlib.Analysis.SpecificLimits.Basic
+import Mathlib.LinearAlgebra.Matrix.Trace
+import Mathlib.Data.Real.Basic
 
-theorem q1_reciprocal_tends_to_zero :
-    Filter.Tendsto (fun n : ℕ => (1 : ℝ) / (n + 1)) Filter.atTop (nhds 0) := by
-  exact tendsto_one_div_add_atTop_nhds_zero_nat
+theorem q10_trace_conj_invariant (A P Q : Matrix (Fin 2) (Fin 2) ℝ) (h : Q * P = 1) :
+    Matrix.trace (P * A * Q) = Matrix.trace A := by
+  rw [Matrix.trace_mul_comm, ← Matrix.mul_assoc, h, Matrix.one_mul]

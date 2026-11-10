@@ -1,6 +1,10 @@
 import Init.Data.Function
+import Mathlib.Algebra.Module.LinearMap.Defs
 import Mathlib.Algebra.Ring.Defs
 import Mathlib.Algebra.Ring.Hom.Defs
+import Mathlib.CategoryTheory.Category.Basic
 import Mathlib.Data.Set.Basic
 import Mathlib.Data.Set.Defs
 import Mathlib.Data.Set.Operations
+import Mathlib.RingTheory.Spectrum.Prime.Topology
+import Mathlib.RingTheory.Valuation.Discrete.Basic
